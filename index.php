@@ -19,7 +19,7 @@
     <div class="entry">
         <h2><?php echo "$r[1], $r[0]"; ?></h2>
         <p><?php echo "VENMO -- $r[2] | CASHAPP -- $r[3] | PAYPAL -- $r[4]";?></p>
-        <button onClick="window.location.reload();">Refresh Page</button>
+        <button onClick="window.location.reload();">Give Me Another</button>
     </div>
 
 <footer><p>Hat tip to the local heroes who made this virtual tip jar spreadsheet. I think it was Ana Owens and Katie Gentsch.
