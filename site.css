@@ -1,0 +1,29 @@
+body{
+    padding: 50px;
+}
+
+h1{ 
+    max-width: 800px;
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.entry{
+    padding: 20px 0 20px 0;
+}
+.entry p{
+    padding: 6px 0 6px 0;
+    margin:0;
+    line-height: 20px;
+}
+.entry span{
+    color: white;
+    background-color: black;
+    padding: 3px;
+}
+
+footer{
+    padding-top: 200px;
+    max-width: 800px;
+}
