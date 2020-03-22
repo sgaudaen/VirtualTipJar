@@ -23,7 +23,7 @@
     </div>
 
 <footer><p>Hat tip to the local heroes who made this virtual tip jar spreadsheet. I think it was Ana Owens and Katie Gentsch.
-Write me with questions, comments, additions. <a href="mailto:maggie@januarythird.co">maggie@januarythird.co</a></p></footer>
+<a href="mailto:maggie@januarythird.co">Write me</a> with questions, comments, additions.</p></footer>
 </body>
 
 </html>
