@@ -1,5 +1,15 @@
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161432750-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-161432750-1');
+    </script>
+
   <meta charset="utf-8">
   <title>Virtual Tip Jar</title>
   <meta name="description" content="The HTML5 Herald">
