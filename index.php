@@ -9,7 +9,7 @@
 
     gtag('config', 'UA-161432750-1');
     </script>
-
+  <meta name="viewport" content="initial-scale=1">
   <meta charset="utf-8">
   <title>Virtual Tip Jar</title>
   <meta name="description" content="The HTML5 Herald">
@@ -43,7 +43,8 @@
     <footer>
             <p>Data from <a href="https://docs.google.com/spreadsheets/u/3/d/1tz2uyhgy3MsBS68MHPzO8H455_879fqfIaRPyUUw3QE/htmlview#gid=0">this spreadsheet</a> by Amy Owens and Katie Gentsch. </br>
             Add yourself to the spreadsheet <a href="https://forms.gle/j1Lni9pJ6RKTFENG9">here.</a></br> 
-            Design and development by <a href="https://januarythird.co">January Third</a>. (Very much WIP, but hey, it works!)</br>
+            Design by <a href="https://januarythird.co">January Third</a>. (Very much WIP, but hey, it works!)</br>
+            Development by Steven Gaudaen and Alex Barbato.
             Make your own version — source code <a href="https://github.com/sgaudaen/VirtualTipJar">here.</a></br>
             <span class="red-span">Questions? Bugs? <a href="mailto:maggie@januarythird.co">Email us.</a> And don't forget to tip generously.</span>
             </p>
