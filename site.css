@@ -1,29 +1,109 @@
-body{
-    padding: 50px;
+:root {
+  --body-padding: 2rem;
+  --funky-red: #f63c3f;
+  --white: #ffffff;
 }
 
-h1{ 
-    max-width: 800px;
-    font-size: 50px;
+@font-face {
+  font-family: AgrandirVariable;
+  src: url(fonts/AgrandirVariable.ttf);
 }
-h2{
-    font-size: 40px;
+@font-face {
+  font-family: Dia;
+  src: url(fonts/Dia-Regular.ttf);
 }
-.entry{
-    padding: 20px 0 20px 0;
+@font-face {
+  font-family: Dia;
+  src: url(fonts/dia-bold.otf);
+  font-weight: bold;
 }
-.entry p{
-    padding: 6px 0 6px 0;
-    margin:0;
-    line-height: 20px;
-}
-.entry span{
-    color: white;
-    background-color: black;
-    padding: 3px;
+@font-face {
+  font-family: FormulaCondensed-Bold;
+  src: url(fonts/FormulaCondensed-Bold.otf);
 }
 
-footer{
-    padding-top: 200px;
-    max-width: 800px;
+/* BASE */
+body {
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Dia;
+}
+h1 {
+  color: var(--white);
+  font-size: 5rem;
+  margin: 0;
+  font-family: FormulaCondensed-Bold;
+  max-width: 30rem;
+}
+h2 {
+  font-size: 7rem;
+  margin: 0;
+  font-family: FormulaCondensed-Bold;
+}
+p {
+    margin: 0;
+}
+a {
+  color: inherit;
+}
+
+/* LEFT SIDE */
+.main-copy {
+  background: #000000;
+  padding: var(--body-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: calc(50% - calc(var(--body-padding) * 2));
+}
+.main-copy footer {
+  display: flex;
+  justify-content: space-between;
+}
+.main-copy p {
+  color: var(--white);
+}
+.main-copy .questions {
+  color: var(--funky-red);
+}
+.main-copy svg {
+  align-self: flex-end;
+}
+
+/* RIGHT SIDE */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: var(--body-padding) solid var(--funky-red);
+    border-left: 0;
+    padding: var(--body-padding);
+    min-width: calc(50% - calc(var(--body-padding) * 3));
+}
+.content .location {
+    font-size: 1.4rem;
+}
+.content .apps {
+    display: flex;
+}
+.content .apps p {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    border: 2px solid black;
+}
+.content .apps u {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.content button {
+    cursor: pointer;
+    font-family: Dia;
+    font-weight: bold;
+    color: var(--white);
+    background: var(--funky-red);
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
 }
