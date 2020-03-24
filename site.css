@@ -64,9 +64,11 @@ a {
 }
 .main-copy p {
   color: var(--white);
+  margin-top: 0.1rem;
 }
 .main-copy .questions {
   color: var(--funky-red);
+  margin-top: 0.3rem;
 }
 .main-copy svg {
   align-self: flex-end;
