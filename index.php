@@ -2,14 +2,14 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161432750-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161432750-1"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'UA-161432750-1');
-    </script> -->
+    </script>
 
     <meta charset="utf-8">
     <title>Virtual Tip Jar</title>
@@ -53,9 +53,9 @@
                 <h2><?php echo "$r[1]"; ?></h2>
 
                 <div class="apps">
-                    <p>VENMO <u><?php echo "$r[2]";?></u></p>
-                    <p>PAYPAL <u><?php echo "$r[4]";?></u></p>
-                    <p>CASHAPP <u><?php echo "$r[3]";?></u></p>
+                    <?php if ($r[2]) echo "<p>VENMO <u>$r[2]</u></p>"; ?>
+                    <?php if ($r[4]) echo "<p>PAYPAL <u>$r[4]</u></p>"; ?>
+                    <?php if ($r[3]) echo "<p>CASHAPP <u>$r[3]</u></p>"; ?>
                 </div>
             </div>
 

@@ -40,9 +40,10 @@ h2 {
   font-size: 7rem;
   margin: 0;
   font-family: FormulaCondensed-Bold;
+  word-break: break-word;
 }
 p {
-    margin: 0;
+  margin: 0;
 }
 a {
   color: inherit;
@@ -73,37 +74,47 @@ a {
 
 /* RIGHT SIDE */
 .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: var(--body-padding) solid var(--funky-red);
-    border-left: 0;
-    padding: var(--body-padding);
-    min-width: calc(50% - calc(var(--body-padding) * 3));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: var(--body-padding) solid var(--funky-red);
+  border-left: 0;
+  padding: var(--body-padding);
+  min-width: calc(50% - calc(var(--body-padding) * 3));
 }
 .content .location {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 .content .apps {
-    display: flex;
+  display: flex;
 }
 .content .apps p {
-    padding: 0.5rem;
-    font-size: 0.7rem;
-    border: 2px solid black;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  border: 3px solid black;
+}
+.content .apps p + p {
+  border-left: 0;
 }
 .content .apps u {
-    font-weight: bold;
-    font-size: 0.9rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-left: 0.2rem;
 }
 .content button {
-    cursor: pointer;
-    font-family: Dia;
-    font-weight: bold;
-    color: var(--white);
-    background: var(--funky-red);
-    padding: 1rem;
-    border: none;
-    border-radius: 5px;
+  cursor: pointer;
+  font-family: Dia;
+  font-weight: bold;
+  color: var(--white);
+  font-size: 1rem;
+  background: var(--funky-red);
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+.content button svg {
+  margin-bottom: -3px;
+  margin-left: 5px;
 }
