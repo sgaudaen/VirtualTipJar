@@ -2,7 +2,7 @@
 
     function get_random_restaurant(){
 
-        $filename = "data.csv";
+        $filename = "Assets/data.csv";
         $data_array = [];
         $count = 0;
 
@@ -14,7 +14,6 @@
             }
             fclose($h);
         }
-
 
         $num = rand(0, $count);
         $restaurant = $data_array[$num];
