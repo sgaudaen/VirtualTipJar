@@ -46,7 +46,7 @@
     </div>
 
     <footer>
-            <p>Data pulled from <a href="https://docs.google.com/spreadsheets/u/3/d/1tz2uyhgy3MsBS68MHPzO8H455_879fqfIaRPyUUw3QE/htmlview#gid=0">the spreadsheet</a> by Amy Owens and Katie Gentsch. </br>
+            <p>Data pulled from <a href="https://docs.google.com/spreadsheets/u/3/d/1tz2uyhgy3MsBS68MHPzO8H455_879fqfIaRPyUUw3QE/htmlview#gid=0">the spreadsheet</a> by Ana Owens and Katie Gentsch. </br>
             Design by <a href="https://januarythird.co">January Third</a> Development by Steven Gaudaen and Alex Barbato.</br>
             Make your own version — <a href="https://github.com/sgaudaen/VirtualTipJar">source code</a>. </br>
             <span class="red-span">Questions? Bugs? <a href="mailto:maggie@januarythird.co">Email us.</a> And tip generously!</span>
